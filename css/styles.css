@@ -5,3 +5,52 @@
 /* reset CSS file to reset browser default styling to a consistent starting point */
 @import url(reset.css);
 
+body {
+	background-image: url(../img/texture-light.png);
+	background-repeat: repeat;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	padding: 10px;
+}
+
+.contentArea {
+	width: 80%;
+}
+
+#content {
+	box-shadow: 5x 5px 2px;
+}
+
+#header  h1 {
+	font-family: 'Bongaloo';
+	font-size: 36px;
+	color: #116189;
+}
+
+#header img {
+	float: left;
+	clear: both;
+}
+
+#header p {
+	font-size: 120%;
+	font-style: italic;
+}
+
+ul {
+	background-color: #D74710;
+}
+
+li {
+	display: inline;
+}
+
+a:hover {
+	background-color: #FF9D45;
+}
+
+a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
