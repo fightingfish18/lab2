@@ -14,7 +14,9 @@ body {
 }
 
 .contentArea {
+	background-color: white;
 	width: 80%;
+	margin: auto;
 }
 
 #content {
@@ -22,12 +24,16 @@ body {
 }
 
 #header  h1 {
-	font-family: 'Bongaloo';
+	font-family: 'Boogaloo';
 	font-size: 36px;
 	color: #116189;
 }
 
-#header img {
+#header {
+	padding-top: 3%;
+}
+
+#header img, #picOne {
 	float: left;
 	clear: both;
 }
@@ -39,6 +45,8 @@ body {
 
 ul {
 	background-color: #D74710;
+	padding: 1%;
+	border-radius: 5px;
 }
 
 li {
@@ -49,8 +57,38 @@ a:hover {
 	background-color: #FF9D45;
 }
 
-a {
+li a {
 	color: white;
 	font-weight: bold;
 	text-decoration: none;
+}
+
+nav {
+	margin-top: 4%;
+	margin-bottom: 2%;
+}
+
+#picOne {
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+#content p {
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+#picTwo {
+	float: right;
+	clear: both;
+}
+
+#footer {
+	font-size: 80%;
+	border-top: solid gray;
+	margin-top: 5%;
+}
+
+#footer p {
+	padding-top: 4px;
 }
